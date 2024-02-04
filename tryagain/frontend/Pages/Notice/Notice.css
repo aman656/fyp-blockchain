@@ -1,0 +1,28 @@
+.election-notice-container {
+    display: flex;
+    width: 100%;
+}
+
+.left-side {
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.election-image {
+    width: 70%;
+    height: auto;
+}
+
+.right-side {
+    height: 200px;
+    width: 500px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    /* You can adjust the box shadow properties as needed */
+    padding: 20px;
+    margin-top: 120px;
+    margin-right: 50px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}

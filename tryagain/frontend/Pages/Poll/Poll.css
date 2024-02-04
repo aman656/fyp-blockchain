@@ -1,0 +1,43 @@
+.poll-table-container {
+    margin-top: 100px;
+}
+
+.poll-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.poll-table th,
+.poll-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.poll-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.poll-table td {
+    background-color: #f9f9f9;
+}
+
+.poll-table tr:nth-child(odd) td {
+    background-color: #fff;
+}
+
+.poll-table td button {
+    padding: 8px 16px;
+    background-color: #bffa60;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.poll-table td button:hover {
+    background-color: #c3ea86;
+}

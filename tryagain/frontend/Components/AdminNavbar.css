@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bffa60;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-heading {
+    margin-left: 10px;
+}
+
+.navbar-flag {
+    width: 30px;
+    height: auto;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    font-size: 16px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #f7f7f7;
+}
+
+.navbar-links .wallet-link {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links .wallet-link span {
+    margin-right: 5px;
+}

@@ -1,0 +1,54 @@
+/* CandidateForm.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="file"] {
+    padding: 1px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #bffa60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #c3ea86;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .file-input-label {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }  
